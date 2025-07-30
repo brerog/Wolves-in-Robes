@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wolves in Robes – Home</title>
+
+  <!-- Gothic Font -->
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0f0f0f url('assets/cracked_parchment_texture.png') repeat;
+      background-size: cover;
+      color: #f0e6d2;
+      font-family: 'UnifrakturCook', serif;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #1a1a1a;
+      border-bottom: 2px solid #d4af37;
+      padding: 12px 0;
+    }
+
+    nav a {
+      color: #d4af37;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      text-shadow: 0 0 6px #d4af37aa;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 40px 0 10px;
+      color: #d4af37;
+      letter-spacing: 2px;
+    }
+
+    .banner {
+      max-width: 90%;
+      border: 2px solid #d4af37;
+      box-shadow: 0 0 15px #d4af37aa;
+      margin-bottom: 40px;
+    }
+
+    .scroll {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #1a1a1a;
+      border: 2px solid #d4af37;
+      box-shadow: 0 0 10px #d4af37aa;
+      font-style: italic;
+      line-height: 1.6;
+      animation: flicker 2.5s infinite alternate;
+    }
+
+    .scroll p {
+      margin: 20px 0;
+    }
+
+    @keyframes flicker {
+      0%   { box-shadow: 0 0 5px #d4af37aa; }
+      50%  { box-shadow: 0 0 15px #d4af37; }
+      100% { box-shadow: 0 0 5px #d4af37aa; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Step 1: Nav Bar -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="debut.html">Debut Album</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <!-- Step 2: Title -->
+  <h1>WOLVES IN ROBES</h1>
+
+  <!-- Step 3: Album Banner -->
+  <img class="banner" src="assets/JudgmentTape.png" alt="Judgment Tape Album Cover">
+
+  <!-- Step 4: Curator's Scroll -->
+  <section class="scroll">
+    <p><strong>Welcome, heretic or holy. Doesn’t matter which.</strong></p>
+    <p>You stand at the threshold of judgment — not the kind handed down by cowards in robes, but by wolves who remember the cries the world forgot.</p>
+    <p><strong>We are Wolves in Robes.</strong><br>
+    We swore no oaths. We serve no kings.<br>
+    Our gospel is grit. Our scripture is suffering.<br>
+    And our only choir is the howling of the broken.</p>
+    <p>Every verse you hear is a blade.<br>
+    Every chorus, a reckoning.<br>
+    We do not rap for fame. We rap for the fallen.</p>
+    <p><em>So step inside. But know this:</em><br>
+    Once you’ve heard the Tape...<br>
+    <strong>you don’t walk away clean.</strong></p>
+  </section>
+
+</body>
+</html>

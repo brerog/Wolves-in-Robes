@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wolves in Robes – About the Artists</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0f0f0f url('assets/cracked_parchment_texture.png') repeat;
+      background-size: cover;
+      color: #f0e6d2;
+      font-family: Georgia, serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #1a1a1a;
+      border-bottom: 2px solid #d4af37;
+      padding: 12px 0;
+    }
+
+    nav a {
+      color: #d4af37;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      text-shadow: 0 0 6px #d4af37aa;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 40px 0 20px;
+      color: #d4af37;
+      font-family: 'UnifrakturCook', serif;
+      font-size: 2.5rem;
+    }
+
+    .artist-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .artist {
+      background-color: #1a1a1a;
+      border: 2px solid #d4af37;
+      padding: 20px;
+      box-shadow: 0 0 10px #d4af37aa;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .artist:hover {
+      transform: translateY(-5px);
+    }
+
+    .artist img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid #d4af37;
+      margin-bottom: 15px;
+    }
+
+    .artist p {
+      font-size: 0.95em;
+      color: #e0d9c4;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="debut.html">Debut Album</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <h1>Meet the Wolves</h1>
+
+  <section class="artist-grid">
+    <div class="artist">
+      <img src="assets/JudahKain.png" alt="Judah Kain">
+      <p>🔥 **Judah Kain**: The wrath of saints. Ex-preacher turned lyrical punisher. Bars soaked in fire and vengeance.</p>
+    </div>
+    <div class="artist">
+      <img src="assets/ObsidianSaint.png" alt="Obsidian Saint">
+      <p>🕯 **Obsidian Saint**: Grim prophet of pain. Sermons over symphonies of ruin. He spits like judgment in slow motion.</p>
+    </div>
+    <div class="artist">
+      <img src="assets/Lil Vendetta.png" alt="Lil Vendetta">
+      <p>🔪 **Lil Vendetta**: Small frame, big rage. Dark drill and razor wit. Every verse a war cry from the streets.</p>
+    </div>
+    <div class="artist">
+      <img src="assets/Rook 7.png" alt="Rook 7">
+      <p>♟ **Rook 7**: Strategic killer. Chess bars and sniper rhymes. Calculated chaos with velvet gloves.</p>
+    </div>
+    <div class="artist">
+      <img src="assets/IronShepard.png" alt="Iron Shepard">
+      <p>🛡 **Iron Shepard**: War vet with wounds in rhyme. Marches through pain with mic in hand. Grit gospel.</p>
+    </div>
+    <div class="artist">
+      <img src="assets/EliDrex.png" alt="Eli Drex">
+      <p>💀 **Eli Drex**: Quiet assassin. Verses like confessions from a cold soul. No emotion, just execution.</p>
+    </div>
+    <div class="artist">
+      <img src="assets/Sinai Verse.png" alt="Sinai Verse">
+      <p>🦴 **Sinai Verse**: Occult mystic. Scripture-flipping rebel. Tongue blessed by shadows and ancient pain.</p>
+    </div>
+    <div class="artist">
+      <img src="assets/Ghost Sermon.png" alt="Ghost Sermon">
+      <p>📻 **Ghost Sermon**: Static prophet. Echoes of the dead. His bars feel haunted and half-remembered.</p>
+    </div>
+  </section>
+
+</body>
+</html>
